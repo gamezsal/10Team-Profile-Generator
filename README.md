@@ -169,7 +169,7 @@ You are required to submit the following:
 
 * The URL of the GitHub: repository https://github.com/gamezsal/10Team-Profile-Generator
 
-* A video demonstrating the entirety of the app's functionality 
+* A video demonstrating the entirety of the app's functionality: https://drive.google.com/file/d/1Wb7yj0c2mF4lT4Gg-bajFAV7UwpA8NRJ/view
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
