@@ -46,7 +46,7 @@ const getPersonInfo = () => {
 const createManager = (personInfo) => {
   const manager = new Manager (personInfo.managername, personInfo.managerid, personInfo.manageremail, personInfo.manageroffice)
   people.push(manager);
-  loop()
+  loop();
 };
 
 const createEngineer = (personInfo) => {
@@ -98,6 +98,36 @@ const getEngineerInfo = () => {
 
 }
 
+const getInternInfo = () => {
+  inquirer.prompt ([
+    {
+      type:"input",
+      message:"What is the Interns name?",
+      name:'internname',
+    },
+    {
+      type:"input",
+      message:"What is the Interns id?",
+      name:'internid',
+    },
+    {
+      type:"input",
+      message:"What is the Interns email?",
+      name:'internemail',
+    },
+    {
+      type:"input",
+      message:"What is the Interns Schools?",
+      name:'internschool',
+    }
+    
+
+  ]).then((internInfo) => {
+   createIntern(internInfo)
+  }) 
+
+}
+
 const loop = () => {
  inquirer.prompt([
    {
@@ -121,7 +151,7 @@ const loop = () => {
 
         
         case 'Intern':
-        return //run Intern function
+        getInternInfo()
         break;
       }
     })
