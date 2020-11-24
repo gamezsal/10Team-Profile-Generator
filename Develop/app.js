@@ -102,17 +102,17 @@ const getInternInfo = () => {
   inquirer.prompt ([
     {
       type:"input",
-      message:"What is the Interns name?",
+      message:"What is the Intern's name?",
       name:'internname',
     },
     {
       type:"input",
-      message:"What is the Interns id?",
-      name:'internid',
+      message:"What is the Intern's id?",
+      name:'internrid',
     },
     {
       type:"input",
-      message:"What is the Interns email?",
+      message:"What is the Intern's email?",
       name:'internemail',
     },
     {
